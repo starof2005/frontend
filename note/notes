@@ -1,0 +1,25 @@
+
+
+<input placeholder="Cost of order" class="js-cost-input" onkeydown="handleCostKeydown(event);">
+
+
+function handleCostKeydown(event) {
+  if (event.key === 'Enter') {
+    calculateTotal();
+  }
+}
+
+-------------------------------------------
+let cost = Number(inputElement.value);/*value is stored*/</input>
+
+-------------------------------------------------------
+function subscribe() {
+  const buttonElement = document.querySelector('.js-subscribe-button');
+
+  if (buttonElement.innerText === 'Subscribe') {
+    buttonElement.innerHTML = 'Subscribed';
+  } else {
+    buttonElement.innerHTML = 'Subscribe';
+  }
+}
+------------------------------------------------------
