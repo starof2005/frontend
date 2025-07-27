@@ -9,10 +9,10 @@ function handleCostKeydown(event) {
   }
 }
 
--------------------------------------------
-let cost = Number(inputElement.value);/*value is stored*/</input>
+------------------------------------------------------
+let cost = Number(inputElement.value);/* value is stored also need number there*/</input>
 
--------------------------------------------------------
+------------------------------------------------------
 function subscribe() {
   const buttonElement = document.querySelector('.js-subscribe-button');
 
